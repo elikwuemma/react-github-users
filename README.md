@@ -1,40 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# React Github User Search
 
-In the project directory, you can run:
+View App Link: http://elikwuemma.github.io/react-github-users/
 
-### `npm start`
+This react-github-users App allows you to search github users as well as viewing their profiles this includes (following, followers & Repos).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## What is this?
+A FrontEnd Development task to search, view users and view their profiles via Github API.
+Nothing serious.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+First, clone the repo
 
-### `npm run build`
+```
+$ git remote add origin https://github.com/elikwuemma/react-github-users.git
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Next, load all the dependencies  
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+$ cd react-github-users
+$ npm install
+``` 
+Finally, run the node server with
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ npm start
+```
+ 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
